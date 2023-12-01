@@ -17,8 +17,8 @@ const Footer = () => {
               <form class="flex flex-row">
                 <span class="flex items-center bg-[#FEFCFB] rounded rounded-r-none border-0 px-3 font-bold text-grey-100">
                   📓
-                </span>{" "}
-                git init
+                </span>
+
                 <input
                   class="h-16 bg-[#FEFCFB] text-grey-darker py-2 font-normal text-grey-darkest border border-[#FEFCFB]  w-full  px-2 outline-none text-lg text-gray-600"
                   type="text"
