@@ -11,26 +11,34 @@ const LatestBlog = () => {
         <h1 className="text-[64px] font-semibold text-center pb-8">
           Get update with <span className="text-[#FA7436]"> latest blog </span>
         </h1>
-        <div className="flex justify-center gap-9">
-          <div>
+        <div className="flex justify-center gap-7 ">
+          <div className="w-[15%] space-y-3 ">
             <img src={Blog1} alt="" />
-            <p>The Amazing Difference a Year of Travelling .</p>
-            <p>July 27, 2021</p>
+            <p className="font-semibold">
+              The Amazing Difference a Year of Travelling .
+            </p>
+            <p className="text-[#999999]">July 27, 2021</p>
           </div>
-          <div>
+          <div className="w-[15%] space-y-3 ">
             <img src={Blog2} alt="" />
-            <p>Travel far enough, you meet yourself.</p>
-            <p>July 27, 2021</p>
+            <p className="font-semibold">
+              Travel far enough, you meet yourself.
+            </p>
+            <p className="text-[#999999]">July 27, 2021</p>
           </div>
-          <div>
+          <div className="w-[15%] space-y-3 ">
             <img src={Blog3} alt="" />
-            <p>How to Save Money While Visiting Africa .</p>
-            <p>July 27, 2021</p>
+            <p className="font-semibold">
+              How to Save Money While Visiting Africa .
+            </p>
+            <p className="text-[#999999]">July 27, 2021</p>
           </div>
-          <div>
+          <div className="w-[15%] space-y-3 ">
             <img src={Blog4} alt="" />
-            <p>Reflections on 5 Months of Travel: Time to Hang</p>
-            <p>July 27, 2021</p>
+            <p className="font-semibold">
+              Reflections on 5 Months of Travel: Time to Hang
+            </p>
+            <p className="text-[#999999]">July 27, 2021</p>
           </div>
         </div>
       </div>
