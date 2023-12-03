@@ -7,9 +7,9 @@ import social3 from "../image/Social3.png";
 const Footer = () => {
   return (
     <>
-      <div className="h-screen bg-[#F7F8FC] flex flex-col justify-center p-10">
-        <div className="bg-[#FA7436] w-[800px] h-96  flex flex-col  rounded-xl">
-          <h1 className="text-[55px] text-center text-[#FEFCFB] p-12">
+      <div className=" relative  bg-[#F7F8FC] flex flex-col justify-center p-10">
+        <div className=" absolute right-72 -top-48 bg-[#FA7436] w-[1000px] h-96  flex flex-col p-12 rounded-xl">
+          <h1 className="text-[55px] text-center w-[75%] mx-auto text-[#FEFCFB] ">
             Subscribe and get exclusive deals & offer
           </h1>
           <div class="hero bg-gredient-dark h-400px flex flex-col px-2">
@@ -33,43 +33,49 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-around">
-          <div className="">
+        <div className="flex justify-around mt-64">
+          <div className="space-y-5">
             <img src={Logo} alt="logo" />
-            <p className="text-[20px]">
+            <p className="text-[20px] w-[60%] ">
               Book your trip in minute, get full Control for much longer.
             </p>
             <div className="flex">
-              <img src={social1} alt="social" />
-              <img src={social2} alt="social" />
-              <img src={social3} alt="social" />
+              <img src={social1} className="cursor-pointer" alt="social" />
+              <img src={social2} className="cursor-pointer" alt="social" />
+              <img src={social3} className="cursor-pointer" alt="social" />
             </div>
           </div>
-          <div>
-            <h2>Company</h2>
-            <ul>
+          <div className="space-y-5">
+            <h2 className="font-semibold">Company</h2>
+            <ul className=" space-y-5 text-[#666666]">
               <li>About</li>
               <li>Careers</li>
               <li>Logistic</li>
               <li>Privacy & Policy</li>
             </ul>
           </div>
-          <div>
-            <h2>Contact</h2>
-            <ul>
+          <div className="space-y-5">
+            <h2 className="font-semibold">Contact</h2>
+            <ul className="space-y-5 text-[#666666]">
               <li>Help/FAQ</li>
               <li>Press</li>
               <li>Affilates</li>
             </ul>
           </div>
-          <div>
-            <h2>More</h2>
-            <ul>
+          <div className="space-y-5">
+            <h2 className="font-semibold">More</h2>
+            <ul className="space-y-5 text-[#666666]">
               <li>Press Centre</li>
               <li>Our Blog</li>
               <li>Low fare tips</li>
             </ul>
           </div>
+        </div>
+        <hr class="h-px my-8 bg-gray-200 border-0 mx-24" />
+
+        <div className="flex justify-around text-[#666666]">
+          <p>Copyright, Trabook 2022. All rights reserved.</p>
+          <p>Terms & Conditions</p>
         </div>
       </div>
     </>

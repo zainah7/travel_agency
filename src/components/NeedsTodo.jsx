@@ -6,13 +6,13 @@ import icon3 from "../image/icon3.png";
 const NeedsTodo = () => {
   return (
     <>
-      <div className="bg-[#F7F8FC] h-screen px-44 space-y-5 flex flex-col justify-center items-center">
-        <div className="flex flex-col justify-center gap-8">
+      <div className="bg-[#F7F8FC] px-44 py-32 space-y-5 flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center gap-8 mb-5">
           <h1 className="text-7xl font-semibold ">
             Things you need
             <span className="text-[#FA7436]"> to do </span>
           </h1>
-          <p className="w-[60%] mx-auto text-center ">
+          <p className="w-[60%] mx-auto text-center  ">
             We ensure that you’ll embark on a perfectly planned, safe vacation
             at a price you can afford.
           </p>

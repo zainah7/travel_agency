@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <>
       <section className=" bg-[#FEFCFB]">
-        <div className="flex justify-center space-x-5 items-center h-screen px-44">
+        <div className="flex justify-center space-x-5 items-center px-44">
           <div className="flex flex-col space-y-10">
             <h1 className="text-7xl font-semibold  w-[75%]">
               Get started your exciting
@@ -31,8 +31,8 @@ const Hero = () => {
             <img src={Card3} alt="" className="absolute right-0 top-36" />
           </div>
         </div>
-        <div className="flex justify-center px-80 ">
-          <div className="flex items-center py-10 px-5 m-2 shadow-2xl shadow-gray-400 rounded-md justify-center space-x-10">
+        <div className="flex justify-center px-80 my-10 mb-20">
+          <div className="flex items-center py-10 px-5 m-2 shadow-2xl bg-white shadow-gray-200 rounded-md justify-center space-x-10">
             <div>
               <h2>Location</h2>
               <p>Where are you going</p>

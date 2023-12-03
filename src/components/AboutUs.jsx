@@ -23,7 +23,7 @@ const AboutUs = () => {
 
         <div className=" relative">
           <img src={icon} alt="" />
-          <div className=" bg-[#FEFCFB] shadow-2xl shadow-gray-300 w-[35rem] p-10">
+          <div className=" bg-[#FEFCFB] shadow-2xl shadow-gray-300 w-[35rem] p-10 ">
             <p className="text-[20px] z-10">
               “On the Windows talking painted pasture yet its express parties
               use. Sure last upon he same as knew next. Of believed or diverted
@@ -32,10 +32,10 @@ const AboutUs = () => {
             <h1 className="text-[23px] font-semibold pt-14">Mike taylor</h1>
             <p className="text-[20px]">Lahore, Pakistan</p>
           </div>
-          <div className="absolute -right-10 -bottom-30  bg-[#F7F8FC] shadow-2xl shadow-gray-300 w-[35rem] h-1/2 p-10">
+          {/* <div className="absolute -right-10 -bottom-30  bg-[#F7F8FC] shadow-2xl shadow-gray-300 w-[35rem] h-1/2 p-10">
             <h1 className="text-[23px] font-semibold pt-14">Chris Thomas</h1>
             <p className="text-[20px]">CEO of Red Button</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

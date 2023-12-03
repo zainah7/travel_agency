@@ -9,12 +9,12 @@ import location from "../image/location.png";
 const DealsDiscounts = () => {
   return (
     <>
-      <div className=" bg-[#FEFCFB] h-screen flex flex-col text-center p-14">
+      <div className=" bg-[#FEFCFB] py-32 flex flex-col text-center p-14">
         <div className="flex flex-col justify-center">
           <h1 className="text-[64px] font-semibold">
             Exclusive <span className="text-[#FA7436]"> deals & discounts</span>
           </h1>
-          <p className="w-[40%] text-center mx-auto ">
+          <p className="w-[40%] text-center mx-auto">
             Plan your perfect vacation with our travel agency. Choose among
             hundreds of all-inclusive offers!
           </p>

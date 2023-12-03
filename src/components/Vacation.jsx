@@ -8,7 +8,7 @@ import star from "../image/star .png";
 
 const Vacation = () => {
   return (
-    <div className="flex flex-col justify-center h-screen bg-[#FEFCFB]">
+    <div className="flex flex-col justify-center my-10 bg-[#FEFCFB]">
       <div className="text-center">
         <h1 className="text-[64px] font-semibold">
           Best <span className="text-[#FA7436]"> vacation plan</span>
