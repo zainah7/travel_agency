@@ -10,10 +10,10 @@ const Vacation = () => {
   return (
     <div className="flex flex-col justify-center my-10 bg-[#FEFCFB]">
       <div className="text-center">
-        <h1 className="text-[64px] font-semibold">
+        <h1 className="md:text-[64px] text-5xl font-semibold mb-4">
           Best <span className="text-[#FA7436]"> vacation plan</span>
         </h1>
-        <p className="w-[40%] mx-auto ">
+        <p className="md:w-[40%] mx-auto ">
           Plan your perfect vacation with our travel agency. Choose among
           hundreds of all-inclusive offers!
         </p>
@@ -21,7 +21,7 @@ const Vacation = () => {
           <img src={plamTree} alt="plam tree" />
         </div>
       </div>
-      <div className="flex justify-center gap-6 ">
+      <div className="flex flex-col md:flex-row justify-center gap-6 ">
         <div className="shadow-2xl shadow-gray-200  ">
           <img src={vacation1} alt="" />
           <div className="flex justify-between p-8">

@@ -11,15 +11,15 @@ const DealsDiscounts = () => {
     <>
       <div className=" bg-[#FEFCFB] py-32 flex flex-col text-center p-14">
         <div className="flex flex-col justify-center">
-          <h1 className="text-[64px] font-semibold">
+          <h1 className="md:text-[64px] text-5xl mb-4 font-semibold">
             Exclusive <span className="text-[#FA7436]"> deals & discounts</span>
           </h1>
-          <p className="w-[40%] text-center mx-auto">
+          <p className="md:w-[40%] text-center mx-auto">
             Plan your perfect vacation with our travel agency. Choose among
             hundreds of all-inclusive offers!
           </p>
         </div>
-        <div className="flex justify-center gap-5 p-8">
+        <div className="md:flex-row flex flex-col justify-center gap-5 p-8">
           <div className="shadow-2xl shadow-gray-200">
             <img src={deals1} alt="" />
             <div className="flex justify-between  px-3 py-6">

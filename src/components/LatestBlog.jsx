@@ -8,7 +8,7 @@ const LatestBlog = () => {
   return (
     <>
       <div className="bg-[#FEFCFB] h-screen flex flex-col pt-20 mb-10">
-        <h1 className="text-[64px] font-semibold text-center pb-8">
+        <h1 className="md:text-[64px] text-5xl font-semibold text-center pb-8">
           Get update with <span className="text-[#FA7436]"> latest blog </span>
         </h1>
         <div className="flex justify-center gap-7 ">

@@ -6,9 +6,9 @@ import icon from "../image/icon.png";
 const AboutUs = () => {
   return (
     <>
-      <div className="bg-[#F7F8FC] justify-start flex gap-20 p-32">
+      <div className="bg-[#F7F8FC] justify-start flex flex-col md:flex-row gap-20 p-32">
         <div className="space-y-5">
-          <h1 className="text-[64px] font-semibold">
+          <h1 className="md:text-[64px] text-5xl font-semibold">
             What people say <span className="text-[#FA7436]">about Us.</span>
           </h1>
           <p className="text-[20px]">
@@ -23,7 +23,7 @@ const AboutUs = () => {
 
         <div className=" relative">
           <img src={icon} alt="" />
-          <div className=" bg-[#FEFCFB] shadow-2xl shadow-gray-300 w-[35rem] p-10 ">
+          <div className=" bg-[#FEFCFB] shadow-2xl shadow-gray-300 md:w-[35rem] w-[18rem] p-10 ">
             <p className="text-[20px] z-10">
               “On the Windows talking painted pasture yet its express parties
               use. Sure last upon he same as knew next. Of believed or diverted
